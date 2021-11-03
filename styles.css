@@ -16,29 +16,52 @@
 header
 {
   display:flex;
-  justify-content:space-between;
+  justify-content:space-around;
+  align-items: center;
   font-family: 'Bebas Neue', cursive;
 }
 header img
 {
     max-width: 140px;
-     max-height: 140px;
-    padding:1% 0 0 5%;
+    max-height: 120px;
+    padding:1% 0 0 0;
     cursor: pointer;
 }
 header li
 {
     display:inline-block;
-    padding:50px 50px 0 0;
+    padding:1em 3em 0 0;
     list-style: none;
 }
 header li a
 {
     color: white;
-    font-size: 45px;
+    font-size:3rem;
     
 }
 header li a:hover
 {
     color:aquamarine;
+}
+
+.social-icons
+{
+    display: flex;
+    justify-content:right;
+
+}
+.social-icons ul
+{
+    padding:10rem 0 0 0;
+    display:inline-block;
+    align-items: center;
+    list-style: none;
+}
+.social-icons ul li
+{
+    padding:0 2em 2em 0;
+}
+#icon
+{
+    height:3em;
 }
