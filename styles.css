@@ -1,67 +1,47 @@
-/*block letters*/
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&family=Roboto&display=swap');
-/*Roboto*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
-/*chill fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bebas+Neue&family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=Babylonica&display=swap');
 
-*{
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
+
+* {
     padding: 0;
-	margin: 0;
+    margin: 0;
     text-decoration: none;
     max-width: 100%;
     background-color: #1f1f1f;
 }
 
-header
-{
-  display:flex;
-  justify-content:space-around;
-  align-items: center;
-  font-family: 'Bebas Neue', cursive;
-}
-header img
-{
-    max-width: 140px;
-    max-height: 120px;
-    padding:1% 0 0 0;
-    cursor: pointer;
-}
-header li
-{
-    display:inline-block;
-    padding:1em 3em 0 0;
-    list-style: none;
-}
-header li a
-{
-    color: white;
-    font-size:3rem;
-    
-}
-header li a:hover
-{
-    color:aquamarine;
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 200px;
 }
 
-.social-icons
-{
+h1 {
+    font-family: 'Shalimar', cursive;
+    font-size: 90px;
+    color: aliceblue;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+
+.social-icons i {
+    color: aliceblue;
+}
+
+.social-icons a {
+    padding: 20px;
+}
+
+.social-icons {
     display: flex;
-    justify-content:right;
-
-}
-.social-icons ul
-{
-    padding:10rem 0 0 0;
-    display:inline-block;
-    align-items: center;
-    list-style: none;
-}
-.social-icons ul li
-{
-    padding:0 2em 2em 0;
-}
-#icon
-{
-    height:3em;
+    flex-direction: row;
+    justify-content: center;
 }
