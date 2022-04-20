@@ -8,7 +8,7 @@
     margin: 0;
     text-decoration: none;
     max-width: 100%;
-    animation: bgcolor infinite 1s;
+    animation: bgcolor infinite 5s;
 }
 
 #logo {
@@ -51,8 +51,16 @@ h2 {
         background: white;
     }
 
+    25% {
+        background: white;
+    }
+
     50% {
         background: black;
+    }
+
+    75% {
+        background: white;
     }
 
     100% {
