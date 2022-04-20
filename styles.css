@@ -22,18 +22,18 @@
 h1 {
     font-family: 'Shalimar', cursive;
     font-size: 90px;
-    color: aliceblue;
+    color: black;
     text-align: center;
 }
 
 h2 {
     font-family: 'Lato', sans-serif;
-    color: aliceblue;
+    color: black;
     text-align: center;
 }
 
 .social-icons i {
-    color: aliceblue;
+    color: black;
 }
 
 .social-icons a {
@@ -48,47 +48,14 @@ h2 {
 
 @keyframes bgcolor {
     0% {
-        background: #1f5f70;
-    }
-
-    10% {
-        background: #007882;
-    }
-
-    20% {
-        background: #00918d;
-    }
-
-    30% {
-        background: #54c18a;
-    }
-
-    40% {
-        background: #54c18a;
+        background: black;
     }
 
     50% {
-        background: #86d780;
-    }
-
-    60% {
-        background: #86d780;
-    }
-
-    70% {
-        background: #54c18a;
-    }
-
-    80% {
-        background: #54c18a;
-    }
-
-    90% {
-        background: #00918d;
+        background: white;
     }
 
     100% {
-        background: #007882;
+        background: black;
     }
-
 }
