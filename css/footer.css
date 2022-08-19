@@ -51,8 +51,9 @@
 }
 
 .copyright {
-    margin-top: 5px;
+    margin:0.2rem;
     letter-spacing: 0.05em;
+    text-align: center;
 }
 
 .footer-button {
