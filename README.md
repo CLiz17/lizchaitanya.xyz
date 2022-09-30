@@ -1,2 +1,2 @@
-# chaitanyalizrt.me
+# lizchaitanya.live
 Web Developer | Security Tester
