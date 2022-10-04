@@ -14,7 +14,11 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: 'Fira Mono', monospace;
+    font-family: 'Comforter Brush', cursive;
+}
+
+a .header-logo{
+    font-family: 'Comforter Brush', cursive;
 }
 
 h2 {
@@ -81,7 +85,7 @@ section {
 section .hyperlink {
     color: #7EB77F;
     font-weight: 700;
-    text-decoration: underline;
+    text-decoration: none;
     transition: all 0.2s ease;
 }
 

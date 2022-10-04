@@ -3,12 +3,13 @@ h4, h5 {
     letter-spacing: 0.05em;
 }
 
+h1, h2, h3 {
+    font-family: 'Permanent Marker', cursive;
+}
+
 .date {
     font-style: italic;
 }
-
-/* --- PROFILE --- */
-
 .profile-container {
     margin-top: 25px;
     display: flex;

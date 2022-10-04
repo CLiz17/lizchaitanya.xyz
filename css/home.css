@@ -64,7 +64,7 @@ h3 em {
 
 h3 a:hover {
     color: #7EB77F;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .short-bio {

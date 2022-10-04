@@ -50,7 +50,7 @@ header {
 
 .nav-item a:hover, .nav-item a:focus {
     color: #7EB77F;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .active {

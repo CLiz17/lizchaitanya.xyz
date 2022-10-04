@@ -1,7 +1,9 @@
 em {
     color: #1D263B;
 }
-
+h1, h2, h3 {
+    font-family: 'Permanent Marker', cursive;
+}
 .projects {
     padding-top: 100px;
     max-width: 1200px;
