@@ -42,10 +42,11 @@
 
     <body>
         <header class="header">
-            <a href="/" class="header-logo">@lizchaitanya</a>
+            <a href="/"><img src="./logo.png" width="100"></a>
             <nav class="nav">
                 <div class="toggle"><i class="fas fa-bars"></i></div>
                 <ul class="nav-menu">
+                    <li class="nav-item"><a href="/">Home</a></li>
                     <li class="nav-item"><a href="about.html">About</a></li>
                     <li class="nav-item"><a href="projects.html">Projects</a></li>
                 </ul>
@@ -55,20 +56,15 @@
         <main class="main-container about-section">
             <section id="profile">
                 <div class="page-title">
-                    <h2>lizchaitanya .profile</h>
+                    <h2>lizchaitanya.profile</h>
+                    <p class="section-description">
+                    Hey there, I'm just clueless teen trying to ease life with tech
+                    finding joy in tutoring what I know in software dev journey
+                    I'm still figuring out how to define myself as a whole but
+                    one could say I'm a passionate developer
+                    <br/>Check out my <a class="hyperlink" href="projects.html">Projects</a>
+                </p>
                 </div>
-                <!-- <p class="section-description">
-                    Exploring new technology and possibly trying them out is my niche.<br/>
-                    I got started as a Web Freelancer building all sorts of websites 
-                    for my clients that I got from my tech community peeps.
-                    You may also know me as the 'Git Person' as I have taken a ton
-                    of sessions in many colleges and communities introducting Git
-                    and GitHub in workshops and tech sessions.<br/>
-                    Along with the Development, I have expanded into Testing as well (APIs specifically)
-                    Currently stuck in GraphQL.<br/>
-                    I explore on Development, Testing and Exploits</br>
-                    Check out my <a class="hyperlink" href="projects.html">Projects</a>
-                </p> -->
                 <div class="profile-container">
                     <div class="terminal-container">
                         <div class="terminal-header">
@@ -112,25 +108,38 @@
                 </div>
             </section>
             <section id="education-experience">
-                <div id="education" class="education-experience-container">
+                <div id="experience" class="education-experience-container">
                     <h3>Achievements</h3>
                     <div class="education-experience-card">
+                        <div class="card-info">
+                            <h4>Tink-Her-Hack 2022</h4>
+                            <p>Kerala State-wide Hakathon</p>
+                            <p class="date">Dec 2022</p>
+                        </div>
                         <div class="card-description">
-                            <p>2nd Prize in Tink-Her-Hack 2022</p>
-                            <br/>
-                            <p>Winners of HAC'KP 2021 International Hackathon by Kerala Police Cyberdome</p>
-                            <br/>
-                            <p>Top 4 Teams of HAC'KP 2020 International Hackathon by Kerala Police Cyberdome</p>
+                            <h4 class="green">Second Runner up</h4>
                         </div>
                     </div>
-                </div>
-                <div id="education" class="education-experience-container">
-                    <h3>Education</h3>
+                    <br/>
                     <div class="education-experience-card">
                         <div class="card-info">
-                            <h4>B.Tech. in Electronics and Communication</h4>
-                            <p class="date">Nov 2020 - April 2024</p>
-                            <p class="green">NSS College of Engineering, Palakkad</p>
+                            <h4>HAC'KP 2021 - Kerala Police Cyberdome</h4>
+                            <p>International Hackathon</p>
+                            <p class="date">une 2021</p>
+                        </div>
+                        <div class="card-description">
+                            <h4 class="green">Winners</h4>
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="education-experience-card">
+                        <div class="card-info">
+                            <h4>HAC'KP 2020 - Kerala Police Cyberdome</h4>
+                            <p>International Hackathon</p>
+                            <p class="date">Aug 2020</p>
+                        </div>
+                        <div class="card-description">
+                            <h4 class="green">Best Performing Teams Top 4</h4>
                         </div>
                     </div>
                 </div>
@@ -139,40 +148,43 @@
                     <div class="education-experience-card">
                         <div class="card-info">
                             <h4 class="green">Intern @MARS Labs IITG</h4>
+                            <p><i>Intern</i></p>
                             <p class="date">Dec 2022 - Present</p>
-                            <p>Intern</p>
                         </div>
                         <div class="card-description">
                             <p>Working on implementing cryptographic encryption and decryption models in Verilog</p>
                         </div>
                     </div>
+                    <br/>
                     <div class="education-experience-card">
                         <div class="card-info">
-                            <h4 class="green">Crawler Team @Grapnel</h4>
+                            <h4 class="green">Software Developer @Grapnel</h4>
+                            <p><i>Volunteer</i></p>
                             <p class="date">June 2021 - Present</p>
-                            <p>Volunteer</p>
                         </div>
                         <div class="card-description">
-                            <p>Working on the development of Grapnel2.0 Crawler</p>
-                            <p>Test Strategies for Graphql APIs</p>
-                            <p>Performed Frontend Testng and Unit Test cases in Postman</p>
-                            <p>Maintained documentation for all the Graphql APIs</p>
+                            <p> Working on the development of Grapnel2.0 Crawler</p>
+                            <p> Test Strategies for Graphql APIs</p>
+                            <p> Performed Frontend Testng and Unit Test cases in Postman</p>
+                            <p> Maintained documentation for all the Graphql APIs</p>
                         </div>
                     </div>
+                    <br/>
                     <div class="education-experience-card">
                         <div class="card-info">
                             <h4 class="green">Web Developer</h4>
+                            <p><i>Freelancer</i></p>
                             <p class="date">Jan 2021 - Jan 2022</p>
-                            <p>Freelance</p>
+                            
                         </div>
                         <div class="card-description">
-                            <p>Custom websites using clients (FullStack)</p> 
+                            <p>Custom websites using clients</p> 
                         </div>
                     </div>
-                    
+                </div>
             </section>
             <section id="tech-stack">
-                <h3>Tech Stack</h3>
+                <h3>My Tech Stacks</h3>
                 <div class="tech-stack-container">
                     <div class="skill">
                         <img src="./img/git.svg" alt="Git Icon"><span>Git</span>

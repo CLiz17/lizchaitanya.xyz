@@ -93,11 +93,11 @@ h3 a:hover {
     width: -moz-fit-content;
     padding: 10px 12px;
     border-radius: 15px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #7EB77F;
     font-weight: 700;
     letter-spacing: 0.05em;
-    color: #1D263B;
-    background-color: #FFFFFF;
+    color: #7EB77F;
+    background-color: #1D263B;
     margin-top: 50px;
     transition: all 0.2s ease;
     cursor: pointer;
@@ -110,7 +110,7 @@ h3 a:hover {
 
 .cta span {
     margin-left: 10px;
-    color: #1D263B;
+    color: #7EB77F;
     font-weight: 700;
 }
 
@@ -120,8 +120,9 @@ h3 a:hover {
 }
 
 .cta:hover {
+    color: #7EB77F;
     border: 1px solid #7EB77F;
-    background-color: #7EB77F;
+    background-color: #1D263B;
     padding: 10px 20px;
 }
 

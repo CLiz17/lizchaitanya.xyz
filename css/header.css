@@ -17,10 +17,9 @@ header {
     background-color: #1D263B;
 }
 
-.header-logo {
-    padding: 10px;
-    font-size: 1.2em;
-    letter-spacing: 0.05em;
+.header-logo img{
+    width:7%;
+    align-items: left;
 }
 
 .nav-menu {

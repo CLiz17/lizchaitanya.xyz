@@ -2,6 +2,9 @@ h4, h5 {
     font-weight: 700;
     letter-spacing: 0.05em;
 }
+.section-description h3{
+    color: #8e8e8e;
+}
 
 h1, h2, h3 {
     font-family: 'Permanent Marker', cursive;
@@ -127,7 +130,7 @@ h1, h2, h3 {
 }
 
 .card-description p::before {
-    content: ">\A0";
+    content: "#\A0";
     color: #7EB77F;
     font-weight: 700;
 }
