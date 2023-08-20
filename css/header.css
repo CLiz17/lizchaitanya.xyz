@@ -14,7 +14,7 @@ header {
     height: 70px;
     padding: 0 15px;
     z-index: 2;
-    background-color: #1D263B;
+    background-color: #242424;
 }
 
 .header-logo img{
@@ -44,7 +44,7 @@ header {
     width: 100vw;
     letter-spacing: 0.1em;
     transition: all 0.2s ease;
-    color: #1D263B;
+    color: #242424;
 }
 
 .nav-item a:hover, .nav-item a:focus {
@@ -79,7 +79,7 @@ header {
         position: relative;
         align-items: center;
         flex-direction: row;
-        background-color: #1D263B;
+        background-color: #242424;
         height: fit-content;
         height: -moz-fit-content;
     }

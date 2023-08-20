@@ -49,12 +49,12 @@ h1, h2, h3 {
 
 #terminal-title {
     font-weight: 700;
-    color: #1D263B;
+    color: #242424;
     letter-spacing: 0.1em;
 }
 
 .right-side-buttons i {
-    color: #1D263B;
+    color: #242424;
 }
 
 .right-side-buttons i:not(:last-child) {
