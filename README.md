@@ -1,1 +1,1 @@
-### Check out : [lizchaitanya.live](https://cliz17.github.io/lizchaitanya/)cliz17.github.io/lizchaitanya
+### Check out : [cliz17.github.io/lizchaitanya](https://cliz17.github.io/lizchaitanya/)
