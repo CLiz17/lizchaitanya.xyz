@@ -1,5 +1,5 @@
 em {
-    color: #242424;
+    color: #171717;
 }
 h1, h2, h3 {
     font-family: 'Nunito', sans-serif;
@@ -18,7 +18,7 @@ h1, h2, h3 {
 .card {
     display: inline-flex;
     flex-direction: column;
-    color: #242424;
+    color: #171717;
 }
 
 .card:not(:last-child) {
@@ -53,7 +53,7 @@ h1, h2, h3 {
     font-size: 1.2em;
     font-weight: 700;
     letter-spacing: 0.05em;
-    color: #242424;
+    color: #171717;
 }
 
 .project-links {
@@ -66,7 +66,7 @@ h1, h2, h3 {
 }
 
 .project-links a i {
-    color: #242424;
+    color: #171717;
     font-size: 1.2em;
     transition: all 0.2s ease;
 }
@@ -99,7 +99,7 @@ h1, h2, h3 {
 }
 
 .project-description {
-    color: #242424;
+    color: #171717;
 }
 
 @media only screen and (min-width: 768px) {

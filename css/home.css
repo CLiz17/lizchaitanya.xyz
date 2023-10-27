@@ -98,7 +98,7 @@ h3 a:hover {
     font-weight: 700;
     letter-spacing: 0.05em;
     color: #7EB77F;
-    background-color: #242424;
+    background-color: #171717;
     margin-top: 50px;
     transition: all 0.2s ease;
     cursor: pointer;
@@ -123,7 +123,7 @@ h3 a:hover {
 .cta:hover {
     color: #7EB77F;
     border: 1px solid #7EB77F;
-    background-color: #242424;
+    background-color: #171717;
     padding: 10px 20px;
 }
 
