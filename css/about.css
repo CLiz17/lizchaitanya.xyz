@@ -44,7 +44,7 @@ h1, h2, h3 {
     text-align: center;
     justify-content: space-between;
     border-radius: 10px 10px 0 0;
-    background-color: #7EB77F;
+    background-color: #d0006f;
 }
 
 #terminal-title {
@@ -65,7 +65,7 @@ h1, h2, h3 {
     padding: 20px;
     border-radius: 0 0 10px 10px;
     text-align: left;
-    border: 1px solid #7EB77F;
+    border: 1px solid #d0006f;
 }
 
 .terminal-window div, .terminal-window div p {
@@ -83,7 +83,7 @@ h1, h2, h3 {
 
 .input::before {
     content: ">\A0";
-    color: #7EB77F;
+    color: #d0006f;
     font-weight: 700;
 }
 
@@ -118,7 +118,7 @@ h1, h2, h3 {
 }
 
 .card-info p a:hover {
-    color: #7EB77F;
+    color: #d0006f;
 }
 
 .card-description {
@@ -131,7 +131,7 @@ h1, h2, h3 {
 
 .card-description p::before {
     content: "#\A0";
-    color: #7EB77F;
+    color: #d0006f;
     font-weight: 700;
 }
 
@@ -154,7 +154,7 @@ h1, h2, h3 {
 .skill {
     border-radius: 12px;
     margin: 10px;
-    border: 2px solid #7EB77F;
+    border: 2px solid #d0006f;
     padding: 8px 10px;
     display: flex;
     align-items: center;
@@ -163,37 +163,6 @@ h1, h2, h3 {
 
 .skill span {
     margin-left: 10px;
-}
-
-/* --- ALL SOCIAL MEDIA --- */
-
-.social-media-list {
-    margin: 50px auto 0 auto;
-    width: fit-content;
-    width: -moz-fit-content;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
-
-.social-media-item {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    padding: 5px 0;
-}
-
-.social-media-item:hover {
-    color: #7EB77F;
-}
-
-.social-media-item i {
-    margin-right: 15px;
-    font-size: 1.5em;
-}
-
-.social-media-item:not(:last-child) {
-    margin-bottom: 10px;
 }
 
 @media only screen and (min-width: 768px) {

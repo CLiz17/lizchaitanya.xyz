@@ -74,7 +74,7 @@ h1, h2, h3 {
 .project-links a i:hover {
     font-size: 1.25em;
     padding: 2px 5px;
-    color: #7EB77F;
+    color: #d0006f;
 }
 
 .project-links a:last-child {
@@ -84,11 +84,11 @@ h1, h2, h3 {
 .project-skills {
     margin-bottom: 12px;
     padding-bottom: 12px;
-    border-bottom: 1px solid #7EB77F;
+    border-bottom: 1px solid #d0006f;
 }
 
 .project-skills span {
-    color: #0FA3B1;
+    color: #d0006f;
     font-weight: 700;
     font-size: 0.9em;
     letter-spacing: 0.05em;

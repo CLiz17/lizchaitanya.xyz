@@ -64,7 +64,7 @@ h3 em {
 }
 
 h3 a:hover {
-    color: #7EB77F;
+    color: #d0006f;
     text-decoration: none;
 }
 
@@ -94,10 +94,10 @@ h3 a:hover {
     width: -moz-fit-content;
     padding: 10px 12px;
     border-radius: 15px;
-    border: 1px solid #7EB77F;
+    border: 1px solid #d0006f;
     font-weight: 700;
     letter-spacing: 0.05em;
-    color: #7EB77F;
+    color: #d0006f;
     background-color: #171717;
     margin-top: 50px;
     transition: all 0.2s ease;
@@ -111,18 +111,18 @@ h3 a:hover {
 
 .cta span {
     margin-left: 10px;
-    color: #7EB77F;
+    color: #d0006f;
     font-weight: 700;
 }
 
 .email-button {
-    border: 1px solid #7EB77F;
-    background-color: #7EB77F;
+    border: 1px solid #d0006f;
+    background-color: #d0006f;
 }
 
 .cta:hover {
-    color: #7EB77F;
-    border: 1px solid #7EB77F;
+    color: #d0006f;
+    border: 1px solid #d0006f;
     background-color: #171717;
     padding: 10px 20px;
 }
