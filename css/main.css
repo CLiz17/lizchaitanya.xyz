@@ -13,6 +13,10 @@ body {
     background-color: #171717;
 }
 
+section{
+    margin: 20% 0;
+}
+
 h1, h2, h3 {
     font-family: 'Nunito', sans-serif;
 }
@@ -114,11 +118,50 @@ section .hyperlink:hover {
     margin-right: 20px;
 }
 
+.social-media-list {
+    margin: 50px auto 0 auto;
+    width: fit-content;
+    width: -moz-fit-content;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.social-media-item {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.social-media-item:hover {
+    color: #7EB77F;
+}
+
+.social-media-item i {
+    margin-right: 15px;
+    font-size: 1.5em;
+}
+
+.social-media-item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
 @media only screen and (min-width: 768px) {
     h2 {
         font-size: 2.5em;
     }
     h3 {
         font-size: 2em;
+    }
+
+    .section-description {
+        margin: 50px 10% 0 10%;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .section-description {
+        margin: 50px auto 0 auto;
     }
 }
