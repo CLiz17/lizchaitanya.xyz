@@ -244,3 +244,18 @@ h1, h2, h3 {
         margin: 50px auto 0 auto;
     }
 }
+
+.logos{
+    overflow:hidden;
+    padding: 20px 0;
+}
+
+.logos-slide{
+    white-space: nowrap;
+}
+
+.logos-slide img{
+    height : 75px;
+    margin: 0 15px;
+}
+
