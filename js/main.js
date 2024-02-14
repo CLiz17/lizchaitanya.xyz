@@ -21,9 +21,9 @@ toggle.addEventListener("click", toggleMenu, false);
 // function sendMail() {
 //     Email.send({
 //         Host : "smtp.gmail.com",
-//         Username : "lizzze2024@gmail.com",
+//         Username : "email",
 //         Password : "password",
-//         To : 'lizzze2024@gmail.com',
+//         To : 'email',
 //         From : documment.getElementById('email').value,
 //         Subject : "Query from portfolio",
 //         Body : document.getElementById('message').value,
