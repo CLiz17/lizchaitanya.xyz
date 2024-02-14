@@ -162,6 +162,7 @@ form {
 .email-form h3 {
     font-weight: 700;
     margin: 5px;
+    letter-spacing: 0.1em;
 }
 
 form input, form textarea {

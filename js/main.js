@@ -17,3 +17,17 @@ function toggleMenu() {
 }
 
 toggle.addEventListener("click", toggleMenu, false);
+
+// function sendMail() {
+//     Email.send({
+//         Host : "smtp.gmail.com",
+//         Username : "lizzze2024@gmail.com",
+//         Password : "password",
+//         To : 'lizzze2024@gmail.com',
+//         From : documment.getElementById('email').value,
+//         Subject : "Query from portfolio",
+//         Body : document.getElementById('message').value,
+//     }).then(
+//     message => alert(message)
+//     );
+// }
